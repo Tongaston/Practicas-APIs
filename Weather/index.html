@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="GMdev" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, Weather" />
+
+    <!-- Titulo -->
+    <title>Fast Weather APP</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/clear.png" type="image/x-icon" />
+
+    <!-- Link CSS  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Link JS  -->
+    <script src="./script.js" defer></script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="card">
+      <section class="search">
+        <input type="text" placeholder="enter city name" spellcheck="false" />
+        <button><img src="images/search.png" alt="search" /></button>
+      </section>
+
+      <section class="weather">
+        <img
+          src="./images/rain.png"
+          class="weather-icon"
+          alt="imagen del clima"
+        />
+        <h1 class="temp">22°C</h1>
+        <h2 class="city">Barcelona</h2>
+
+        <div class="details">
+          <div class="col">
+            <img src="./images/humidity.png" alt="icono humedad" />
+            <div>
+              <p class="humidity">50%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="./images/wind.png" alt="icono viento" />
+            <div>
+              <p class="wind">15 Km/h</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
