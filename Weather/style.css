@@ -195,4 +195,17 @@ h2 {
     font-size: 13px;
     text-align: center;
   }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  h2 {
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+
+.nombre {
+    font-size: 8px;
+}
 }
