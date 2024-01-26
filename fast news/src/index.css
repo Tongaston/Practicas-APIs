@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Share+Tech+Mono&display=swap');
+
+
+
+h2 {
+    font-family: "Share Tech Mono", monospace;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+
+.nombre {
+    font-family: "Share Tech Mono", monospace;
+    font-size: 8px;
+}
