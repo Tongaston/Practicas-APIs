@@ -3,7 +3,6 @@ import NewsItem from './NewsItem'
 
 const apiKey = import.meta.env.VITE_API_KEY
 
-console.log(apiKey)
 
 const NewsBoard = ({ category }) => {
 
